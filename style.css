@@ -1,0 +1,77 @@
+body{
+    margin:0;
+    background-color: white;
+    color: black;
+    font-family: 'Titillium Web',sans-serif;
+}
+main{
+    margin:1rem;
+}
+#img-header{
+    height: 20rem;
+    background-image: url('/img/nikola-header.jpg');
+    background-size:cover;
+    background-position: 0 25%;
+}
+#image{
+    width: 100%;
+    height: auto;
+}
+#title{
+    text-align: center;
+    margin-bottom: -10px;
+}
+.subtitle{
+    text-align: center;
+    margin-top: 0;
+}
+.p-subtitle{
+    margin-bottom: -15px;
+}
+article{
+    margin: auto;
+    text-align: justify;
+}
+section{
+    padding: 3rem 0 3rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+}
+#img-caption{
+    font-size: 13px;
+    text-align: justify;
+    width: 45%;
+    height: 45%;
+}
+#img-div{
+    width: 45%;
+    height: 45%;
+}
+#image{
+    border-radius: 50%;
+}
+footer{
+    height: 10rem;
+    background-color: rgb(140, 140, 140);
+}
+#tribute-info{
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#tribute-link{
+    color: aliceblue;
+}
+@media (min-width: 630px){
+    article {
+        width: 600px;    
+    }
+    section{
+        margin: auto;
+        width: 600px;
+    }
+}
