@@ -32,6 +32,9 @@ article{
     margin: auto;
     text-align: justify;
 }
+.brush-gif{
+    width: 100%;
+}
 section{
     padding: 3rem 0 3rem 0;
     display: flex;
@@ -72,6 +75,9 @@ footer{
     }
     section{
         margin: auto;
+        width: 600px;
+    }
+    .brush-gif{
         width: 600px;
     }
 }
