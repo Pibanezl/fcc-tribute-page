@@ -9,7 +9,7 @@ main{
 }
 #img-header{
     height: 20rem;
-    background-image: url('./img/nikola-header.jpg');
+    background-image: url('img/nikola-header.jpg');
     background-size:cover;
     background-position: 0 25%;
 }
