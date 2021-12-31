@@ -4,14 +4,46 @@ body{
     color: black;
     font-family: 'Titillium Web',sans-serif;
 }
+#navbar{
+    width: 3rem;
+    height: 101%;
+    text-align: center;
+    color: white;
+    background-color: rgb(125, 125, 125);
+    position:fixed;
+}
+#navbar>header>h1{
+    margin-top: 0px;
+    background-color:cadetblue;
+}
+#navbar>ul{
+    text-align: left;
+    margin-left: -2.4rem;
+    font-size: 13px;
+}
+#navbar>ul>li{
+    list-style: none;
+}
+#navbar>ul>li>a{
+    color: white;
+    text-decoration: none;
+}
+#navbar>ul>li>a:hover{
+    background-color: rgb(110, 110, 110);
+    text-decoration: none;
+}
 main{
-    margin:1rem;
+    margin:1rem 1rem 1rem 4rem;
 }
 #img-header{
     height: 20rem;
-    background-image: url('img/nikola-header.jpg');
+    background-image: url('https://uploads.carifree.com/2018/12/18085700/iStock-9182484121.jpg');
     background-size:cover;
-    background-position: 0 25%;
+    background-position: 0 65%;
+}
+.main-section{
+    display:flex;
+    flex-direction: column;
 }
 #image{
     width: 100%;
@@ -26,14 +58,17 @@ main{
     margin-top: 0;
 }
 .p-subtitle{
-    margin-bottom: -15px;
+    text-align: start;
 }
 article{
     margin: auto;
     text-align: justify;
 }
+.brush-gif{
+    width: 100%;
+}
 section{
-    padding: 3rem 0 3rem 0;
+    padding: 1rem 0 1rem 0;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -53,6 +88,8 @@ section{
     border-radius: 50%;
 }
 footer{
+    margin-left: 3rem;
+    padding-left: 1.2rem;
     height: 10rem;
     background-color: rgb(140, 140, 140);
 }
@@ -72,6 +109,9 @@ footer{
     }
     section{
         margin: auto;
+        width: 600px;
+    }
+    .brush-gif{
         width: 600px;
     }
 }
